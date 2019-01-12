@@ -1,1 +1,7 @@
 1. To create new local repository git is initialized using command - git init
+2. Add files, to send it to server using command - git add .
+3. To commit the changes done to file, use command - git commit -m "any meaningful message that can explain the commit done"
+4. To push the repository on the remote server, first of all local repository must be connected to it by using command -  git remote add origin <server>
+5. Now, send changes to the master branch or any other branch of repository byusing command - git push origin master
+
+      By using above steps, code is pushed to the server and can be access by anyone.   
